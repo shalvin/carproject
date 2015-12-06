@@ -191,7 +191,7 @@ function drawGMeter(ctx, percentFullA, percentFullB, x, y, width, height, tickLi
     ctx.save();
     ctx.setLineDash(tickLineDash);
     ctx.lineWidth = height;
-    ctx.strokeStyle = barGradientA;
+    ctx.strokeStyle = '#f5f5f5';
     ctx.beginPath();
 
     ctx.moveTo(x            , y + height / 2);
