@@ -1,3 +1,4 @@
+//motionInit();
 
 
-motionInit();
+initDashboard();
